@@ -1,0 +1,63 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Duelo de gatos</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body>
+
+    <!-- Contenedor -->
+
+    <div class="contenedorApp">
+
+        <!-- Tablero de puntuaciones -->
+
+        <aside class="sideBar">
+            <div class="puntuaciones">
+                <h3 class="mb-4">Puntuaciones</h3>
+                <p>Jugador X</p><span id="puntuacionX">0</span>
+                <p>Jugador O</p><span id="puntuacionO">0</span>
+            </div>
+        </aside>
+
+        <!-- Maquetado del tablero -->
+
+        <div id="tablero" class="tateti">
+            <h1 class="text-center">TA-TE-TI (Cats Edition)</h1>
+            <div class="d-flex">
+                <div class="box col-4" data-index="0"><img src="" alt=""></div>
+                <div class="box col-4" data-index="1"><img src="" alt=""></div>
+                <div class="box col-4" data-index="2"><img src="" alt=""></div>
+            </div>
+            <div class="d-flex">
+                <div class="box col-4" data-index="3"><img src="" alt=""></div>
+                <div class="box col-4" data-index="4"><img src="" alt=""></div>
+                <div class="box col-4" data-index="5"><img src="" alt=""></div>
+            </div>
+            <div class="d-flex">
+                <div class="box col-4" data-index="6"><img src="" alt=""></div>
+                <div class="box col-4" data-index="7"><img src="" alt=""></div>
+                <div class="box col-4" data-index="8"><img src="" alt=""></div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Script de bootstrap -->
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+        crossorigin="anonymous"></script>
+
+    <!-- Script propio -->
+
+    <script src="./js/main.js"></script>
+
+</body>
+
+</html>

@@ -1,0 +1,64 @@
+.box {
+    width: 10rem;
+    height: 10rem;
+    background-color: rgb(236, 157, 210);
+    padding: 10px;
+    color: white;
+    border-radius: 3rem;
+    margin: 5px;
+    font-size: 5rem;
+    text-align: center;
+    font-weight: bold;
+}
+
+.box:hover {
+    border: solid 3px lightskyblue;
+}
+
+.tateti {
+    margin: auto;
+}
+
+h1 {
+    margin-bottom: 1rem;
+    color: lightskyblue;
+    font-family: cursive;
+    font-weight: bold;
+}
+
+.sideBar {
+    background-color: rgb(236, 157, 210);
+    width: 12rem;
+    padding: 1rem;
+    text-align: center;
+    height: 100vh;
+}
+
+.contenedorApp {
+    display: flex;   
+}
+
+.puntuaciones {
+    font-family: cursive;
+    margin-top: 5rem;
+}
+
+.puntuaciones span {
+    margin-bottom: 8px;
+}
+
+#puntuacionX,
+#puntuacionO {
+    font-weight: bold;
+    color: lightskyblue;
+    font-size: 30px;
+}
+
+.box img {
+    width: 100%;
+    height: 100%;
+    display: none;
+}
+
+
+/* Los cuadrados son de 160*160 por lo que las imagenes podrían ser de 120x120 */
